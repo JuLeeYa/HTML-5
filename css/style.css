@@ -11,7 +11,7 @@
 .wrapper{
 	min-height: 1060px;
 	background: url(../img/bg2.jpg) no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 	font-size: 14px;
 }
@@ -34,6 +34,9 @@
 }
 .entrar{
 	text-decoration: none;
+}
+.entrar:hover{
+	text-decoration: underline;
 }
 .oferta{
 	float: right;
